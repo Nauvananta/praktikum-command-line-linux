@@ -36,11 +36,17 @@ Perintah history menampilkan daftar perintah yang telah kita jalankan sebelumnya
 
 Perintah man digunakan untuk menampilkan halaman manual dari perintah atau program di Linux Halaman manual memberikan informasi dan petunjuk penggunaan untuk berbagai perintah dan program
 
+8. man man
 
+![Screenshot from 2024-08-30 18-31-13](https://github.com/user-attachments/assets/1e56be84-036a-4582-b9f4-9a84d1caa94a)
+   
+Perintah man man digunakan untuk menampilkan halaman manual dari perintah man Halaman ini memberikan informasi tentang cara menggunakan perintah man itu sendiri termasuk opsi-opsi yang tersedia dan fungsinya
 
+9. file
 
+![Screenshot from 2024-08-30 18-31-33](https://github.com/user-attachments/assets/749ac086-08f6-41a8-a7b1-ab82a36439c9)
 
-
+Perintah file digunakan untuk menentukan tipe file di Linux Perintah ini menganalisis isi file dan memberikan informasi tentang format atau jenis file tersebut
 
 
 
