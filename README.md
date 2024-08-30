@@ -18,14 +18,23 @@ Perintah pwd digunakan untuk menampilkan path direktori kerja saat ini di termin
 
 Perintah cd /home digunakan untuk mengubah direktori kerja saat ini ke direktori /home Setelah menjalankan perintah ini, kita akan berada di direktori /home pada sistem file
 
+5. cd
 
+![Screenshot from 2024-08-30 18-27-24](https://github.com/user-attachments/assets/20bf8f6f-6124-40a9-b632-f312b27e81df)
 
+Perintah cd tanpa argumen digunakan untuk mengembalikan kita ke direktori home pengguna saat ini Di banyak sistem, ini adalah direktori seperti /home/nama_pengguna
 
+6. history
 
+![Screenshot from 2024-08-30 18-30-40](https://github.com/user-attachments/assets/00a58757-8fae-4ad4-9f71-a5e3a70b53bc)
 
+Perintah history menampilkan daftar perintah yang telah kita jalankan sebelumnya di terminal
 
+7. man
 
+![Screenshot from 2024-08-30 18-31-02](https://github.com/user-attachments/assets/fbd4b8b0-a23c-4413-8c0d-1d1789a6edc2)
 
+Perintah man digunakan untuk menampilkan halaman manual dari perintah atau program di Linux Halaman manual memberikan informasi dan petunjuk penggunaan untuk berbagai perintah dan program
 
 
 
