@@ -137,6 +137,7 @@ Perintah uname digunakan untuk menampilkan informasi tentang sistem operasi dan 
 Perintah top digunakan untuk menampilkan proses-proses yang sedang berjalan di sistem secara real-time Ini menunjukkan penggunaan CPU memori dan informasi lainnya tentang proses yang aktif di Linux
 
 27. du
+
 ![Screenshot from 2024-08-30 20-15-48](https://github.com/user-attachments/assets/32e4863d-ce84-4127-88ac-f3b4c10b847e)
 Perintah du digunakan untuk menampilkan penggunaan ruang disk oleh file dan direktori di Linux Ini memberikan informasi tentang ukuran file dan direktori serta total ruang disk yang digunakan
 
@@ -147,6 +148,7 @@ Perintah du digunakan untuk menampilkan penggunaan ruang disk oleh file dan dire
 Perintah useradd digunakan untuk membuat akun pengguna baru di Linux Perintah ini mengonfigurasi akun pengguna dengan nama pengguna yang ditentukan dan mengatur parameter default seperti direktori home dan shell login
 
 29. df
+
 ![Screenshot from 2024-08-30 20-15-18](https://github.com/user-attachments/assets/243a2f6a-6d73-4e8e-9cee-fa973cb39756)
 Perintah df digunakan untuk menampilkan informasi tentang ruang disk yang digunakan dan tersedia pada sistem file di Linux Ini menunjukkan kapasitas total, ruang yang digunakan, dan ruang yang tersedia pada setiap sistem file yang terpasang
 
@@ -156,13 +158,15 @@ Perintah df digunakan untuk menampilkan informasi tentang ruang disk yang diguna
 
 Perintah exit digunakan untuk keluar dari terminal atau sesi shell saat ini Ini menutup sesi terminal atau shell yang sedang aktif dan kembali ke lingkungan sebelumnya atau menutup jendela terminal jika tidak ada sesi lain yang terbuka
 
+31. clear
 
+![Screenshot from 2024-08-30 20-10-38](https://github.com/user-attachments/assets/97f74ede-2fc7-42f1-8ac5-d0bf87a9b153)
 
+Perintah clear digunakan untuk membersihkan layar terminal dan menghapus semua teks yang ditampilkan sebelumnya Ini memberikan tampilan terminal yang bersih tanpa menghapus riwayat perintah yang telah dijalankan
 
-
-
-
-
+32. su - lblanket -s /bin/bash
+![Screenshot from 2024-08-30 19-58-28](https://github.com/user-attachments/assets/bbcb303e-742c-4287-9442-08ed76775b48)
+Perintah su - lblanket -s /bin/bash digunakan untuk berpindah ke pengguna lblanket dengan shell /bin/bash dan login ke lingkungan pengguna tersebut Secara umum perintah su digunakan untuk berpindah ke pengguna lain atau ke shell root
 
 
 
