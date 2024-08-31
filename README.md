@@ -83,9 +83,7 @@ Perintah sudo systemctl restart NetworkManager digunakan untuk me-restart layana
 Perintah ping google.com digunakan untuk mengirim permintaan echo ke server google.com dan memeriksa apakah server tersebut dapat dijangkau serta mengukur waktu respons
 
 17. kill
-
 ![Screenshot from 2024-08-30 20-39-09](https://github.com/user-attachments/assets/bebdcb6a-b367-464d-8f4c-b2cad38fbb36)
-
 Perintah kill digunakan untuk mengirim sinyal ke proses di Linux Biasanya digunakan untuk menghentikan proses dengan mengirimkan sinyal tertentu seperti SIGTERM untuk meminta proses berhenti secara normal atau SIGKILL untuk menghentikan proses secara paksa
 
 18. watch -n 2 tail -n 10 /var/log/syslog
