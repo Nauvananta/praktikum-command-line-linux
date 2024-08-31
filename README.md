@@ -166,9 +166,48 @@ Perintah clear digunakan untuk membersihkan layar terminal dan menghapus semua t
 
 32. su - lblanket -s /bin/bash
 ![Screenshot from 2024-08-30 19-58-28](https://github.com/user-attachments/assets/bbcb303e-742c-4287-9442-08ed76775b48)
+
 Perintah su - lblanket -s /bin/bash digunakan untuk berpindah ke pengguna lblanket dengan shell /bin/bash dan login ke lingkungan pengguna tersebut Secara umum perintah su digunakan untuk berpindah ke pengguna lain atau ke shell root
 
+33. su - lblanket -c 'ls /home/lblanket'
+![Screenshot from 2024-08-30 19-56-53](https://github.com/user-attachments/assets/af933f59-c071-432a-b59e-70539b79a296)
 
+Perintah su - lblanket -c 'ls /home/lblanket' digunakan untuk menjalankan perintah ls /home/lblanket sebagai pengguna lblanket dan kemudian kembali ke pengguna sebelumnya Perintah -c diikuti oleh perintah yang ingin dijalankan akan dieksekusi sebagai pengguna lblanket
 
+34. su - lblanket
 
+![Screenshot from 2024-08-30 19-56-03](https://github.com/user-attachments/assets/9406b00c-a3ed-4009-bbeb-0491bb2579cc)
+
+Perintah su - lblanket digunakan untuk berpindah ke pengguna lblanket dengan login ke lingkungan pengguna tersebut Perintah ini memulai shell untuk pengguna lblanket dan mengatur variabel lingkungan serta direktori home seperti yang ditetapkan untuk pengguna tersebut
+
+35. sudo -u lblanket ls /home/lblanket
+![Screenshot from 2024-08-30 19-51-06](https://github.com/user-attachments/assets/77a483d2-b435-4396-9217-04adb5c3d48b)
+
+Perintah sudo -u lblanket ls /home/lblanket digunakan untuk menjalankan perintah ls /home/lblanket sebagai pengguna lblanket Perintah ini memungkinkan kita melihat daftar isi direktori /home/lblanket seolah-olah perintah tersebut dijalankan oleh pengguna lblanket
+
+36. ls -l
+![Screenshot from 2024-08-30 19-49-42](https://github.com/user-attachments/assets/514f95a4-610b-4d96-9d68-82c754bc9a77)
+Perintah ls -l digunakan untuk menampilkan daftar file dan direktori dengan informasi detail seperti hak akses, pemilik, grup, ukuran, dan tanggal serta waktu terakhir diubah
+
+37. cd /home/lblanket
+
+![Screenshot from 2024-08-30 19-49-37](https://github.com/user-attachments/assets/b64e8e6c-66d0-486b-9d48-bac20ec99a35)
+
+Perintah cd /home/lblanket digunakan untuk mengubah direktori kerja saat ini ke direktori /home/lblanket Setelah menjalankan perintah ini, kita akan berada di direktori /home/lblanket pada sistem file
+
+38. nano /home/lblanket/somefile.txt
+![Screenshot from 2024-08-30 19-46-35](https://github.com/user-attachments/assets/c2d1866d-f474-41bb-8b31-f4af96cb9320)
+
+Perintah nano /home/lblanket/somefile.txt digunakan untuk membuka dan mengedit file somefile.txt yang berada di direktori /home/lblanket menggunakan editor teks nano Jika file tersebut belum ada, perintah ini akan membuat file baru dengan nama tersebut
+
+39. ls /home/lblanket
+![Screenshot from 2024-08-30 19-45-59](https://github.com/user-attachments/assets/f21c7ed0-ca17-49fd-9e1d-06bc302e85fd)
+
+Perintah ls /home/lblanket digunakan untuk menampilkan daftar file dan direktori yang ada di dalam direktori /home/lblanket
+
+40. sudo -s
+
+![Screenshot from 2024-08-30 19-28-48](https://github.com/user-attachments/assets/b9b126c5-200c-4c99-b61d-3b4b48d1618c)
+
+Perintah sudo -s digunakan untuk memulai shell dengan hak akses superuser atau root Setelah menjalankan perintah ini, kita akan memiliki akses penuh untuk menjalankan perintah dengan hak istimewa root dalam shell baru
 
