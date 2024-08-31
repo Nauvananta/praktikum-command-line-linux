@@ -110,36 +110,51 @@ Perintah watch -n 5 df -h digunakan untuk menampilkan informasi tentang pengguna
 
 Perintah watch digunakan untuk menjalankan perintah tertentu secara berulang-ulang dan menampilkan hasilnya di terminal Perintah ini berguna untuk memantau perubahan dalam keluaran perintah secara real-time
 
+22. systemctl
+![Screenshot from 2024-08-30 20-17-35](https://github.com/user-attachments/assets/44614773-c444-4dd5-8917-b11a64238630)
+Perintah systemctl digunakan untuk mengelola dan mengontrol layanan dan unit sistem di Linux Ini mencakup kemampuan untuk memulai, menghentikan, me-restart, dan memeriksa status layanan serta mengelola unit-unit sistem lainnya
 
+23. time
 
+![Screenshot from 2024-08-30 20-17-17](https://github.com/user-attachments/assets/2bb4458e-c572-4af4-91de-72739d4468ab)
 
+Perintah time digunakan untuk mengukur waktu yang dibutuhkan untuk menjalankan suatu perintah Ini memberikan informasi tentang waktu yang dihabiskan untuk proses CPU dan waktu total yang diperlukan
 
+24. hostname
 
+![Screenshot from 2024-08-30 20-17-08](https://github.com/user-attachments/assets/af6bf122-572e-4faa-8d59-c4a6661e087d)
 
+Perintah hostname digunakan untuk menampilkan atau mengatur nama host sistem di Linux Nama host adalah identifikasi unik untuk komputer di jaringan dan perintah ini membantu kita melihat atau mengubah nama tersebut
 
+25. uname
 
+![Screenshot from 2024-08-30 20-16-56](https://github.com/user-attachments/assets/c7a42e4e-1c40-46d6-b269-ccca620c3abb)
 
+Perintah uname digunakan untuk menampilkan informasi tentang sistem operasi dan kernel yang digunakan di Linux Perintah ini bisa memberikan detail seperti nama kernel versi kernel dan nama mesin yang digunakan
 
+26. top
+![Screenshot from 2024-08-30 20-16-19](https://github.com/user-attachments/assets/32ce37a9-93db-4848-b443-76e4cf687176)
+Perintah top digunakan untuk menampilkan proses-proses yang sedang berjalan di sistem secara real-time Ini menunjukkan penggunaan CPU memori dan informasi lainnya tentang proses yang aktif di Linux
 
+27. du
+![Screenshot from 2024-08-30 20-15-48](https://github.com/user-attachments/assets/32e4863d-ce84-4127-88ac-f3b4c10b847e)
+Perintah du digunakan untuk menampilkan penggunaan ruang disk oleh file dan direktori di Linux Ini memberikan informasi tentang ukuran file dan direktori serta total ruang disk yang digunakan
 
+28. useradd
 
+![Screenshot from 2024-08-30 20-15-40](https://github.com/user-attachments/assets/8c90b68d-561a-4c0c-911d-b2239015cb4c)
 
+Perintah useradd digunakan untuk membuat akun pengguna baru di Linux Perintah ini mengonfigurasi akun pengguna dengan nama pengguna yang ditentukan dan mengatur parameter default seperti direktori home dan shell login
 
+29. df
+![Screenshot from 2024-08-30 20-15-18](https://github.com/user-attachments/assets/243a2f6a-6d73-4e8e-9cee-fa973cb39756)
+Perintah df digunakan untuk menampilkan informasi tentang ruang disk yang digunakan dan tersedia pada sistem file di Linux Ini menunjukkan kapasitas total, ruang yang digunakan, dan ruang yang tersedia pada setiap sistem file yang terpasang
 
+30. exit
 
+![Screenshot from 2024-08-30 20-11-35](https://github.com/user-attachments/assets/6462676f-4e0f-4ce9-90b4-96dd89f23c2c)
 
-
-
-
-
-
-
-
-
-
-
-
-
+Perintah exit digunakan untuk keluar dari terminal atau sesi shell saat ini Ini menutup sesi terminal atau shell yang sedang aktif dan kembali ke lingkungan sebelumnya atau menutup jendela terminal jika tidak ada sesi lain yang terbuka
 
 
 
