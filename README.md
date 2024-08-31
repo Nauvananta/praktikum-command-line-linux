@@ -186,6 +186,7 @@ Perintah su - lblanket digunakan untuk berpindah ke pengguna lblanket dengan log
 Perintah sudo -u lblanket ls /home/lblanket digunakan untuk menjalankan perintah ls /home/lblanket sebagai pengguna lblanket Perintah ini memungkinkan kita melihat daftar isi direktori /home/lblanket seolah-olah perintah tersebut dijalankan oleh pengguna lblanket
 
 36. ls -l
+
 ![Screenshot from 2024-08-30 19-49-42](https://github.com/user-attachments/assets/514f95a4-610b-4d96-9d68-82c754bc9a77)
 Perintah ls -l digunakan untuk menampilkan daftar file dan direktori dengan informasi detail seperti hak akses, pemilik, grup, ukuran, dan tanggal serta waktu terakhir diubah
 
@@ -210,4 +211,61 @@ Perintah ls /home/lblanket digunakan untuk menampilkan daftar file dan direktori
 ![Screenshot from 2024-08-30 19-28-48](https://github.com/user-attachments/assets/b9b126c5-200c-4c99-b61d-3b4b48d1618c)
 
 Perintah sudo -s digunakan untuk memulai shell dengan hak akses superuser atau root Setelah menjalankan perintah ini, kita akan memiliki akses penuh untuk menjalankan perintah dengan hak istimewa root dalam shell baru
+
+41. sudo visudo
+
+![Screenshot from 2024-08-30 19-27-14](https://github.com/user-attachments/assets/49505df5-5359-4e33-a3b9-836642721e18)
+
+Perintah sudo visudo digunakan untuk mengedit file konfigurasi sudoers dengan editor teks yang aman Perintah ini membuka file konfigurasi sudoers dan memastikan tidak ada kesalahan sintaks saat menyimpan perubahan, yang penting untuk menjaga akses dan kontrol sudo dengan benar
+
+42. whoami
+
+![Screenshot from 2024-08-30 19-27-00](https://github.com/user-attachments/assets/e70f2d48-3c19-46a1-8180-a3b8fba5b312)
+
+Perintah whoami digunakan untuk menampilkan nama pengguna saat ini yang sedang aktif di terminal
+
+43. sudo ls /root
+
+![Screenshot from 2024-08-30 19-26-28](https://github.com/user-attachments/assets/3258a4ba-c790-4f53-a4e0-f0a685f6d29a)
+
+Perintah sudo ls /root digunakan untuk menampilkan daftar file dan direktori di dalam direktori /root dengan hak akses superuser Perintah ini memungkinkan kita melihat konten direktori yang biasanya hanya dapat diakses oleh pengguna root
+
+44. nano 
+
+![Screenshot from 2024-08-30 18-52-00](https://github.com/user-attachments/assets/936c5e47-4813-4316-a6c4-7b48faf4782a)
+
+Perintah nano digunakan untuk membuka dan mengedit file teks menggunakan editor nano di terminal Ini adalah editor teks berbasis layar yang sederhana dan mudah digunakan
+
+45. touch file_baru.txt
+
+![Screenshot from 2024-08-30 18-47-35](https://github.com/user-attachments/assets/19b51a81-2d36-4b6e-a328-256ea50d18db)
+
+Perintah touch file_baru.txt digunakan untuk membuat file baru dengan nama file_baru.txt jika file tersebut belum ada Jika file tersebut sudah ada, perintah ini akan memperbarui timestamp dari file tersebut
+
+46. ls -l file_baru.txt
+
+![Screenshot from 2024-08-30 18-47-43](https://github.com/user-attachments/assets/7f41d7ec-08b8-4b98-9e48-bac93fa7f869)
+
+Perintah ls -l file_baru.txt digunakan untuk menampilkan informasi detail tentang file_baru.txt, seperti hak akses, pemilik, ukuran, dan tanggal serta waktu terakhir diubah
+
+47. nano file_baru.txt
+
+![Screenshot from 2024-08-30 18-48-47](https://github.com/user-attachments/assets/3779ece9-320c-4807-baf1-f8c00bc14a2f)
+
+Perintah nano file_baru.txt digunakan untuk membuka dan mengedit file file_baru.txt menggunakan editor teks nano Jika file tersebut belum ada, perintah ini akan membuat file baru dengan nama tersebut
+
+48. zip contoh.zip file_baru.txt
+
+![Screenshot from 2024-08-30 18-49-52](https://github.com/user-attachments/assets/a823463c-4adb-4865-8472-0f7803cc0e82)
+
+Perintah zip contoh.zip file_baru.txt digunakan untuk membuat arsip ZIP dengan nama contoh.zip yang berisi file_baru.txt Jika contoh.zip sudah ada, perintah ini akan menambahkan file_baru.txt ke dalam arsip tersebut
+
+49. unzip contoh.zip
+
+![Screenshot from 2024-08-30 18-50-25](https://github.com/user-attachments/assets/1e3d5d45-db5e-4914-8924-1f04ab93e9af)
+
+Perintah unzip contoh.zip digunakan untuk mengekstrak file-file yang ada di dalam arsip contoh.zip ke direktori saat ini Perintah ini akan mengeluarkan semua konten dari arsip ZIP tersebut
+
+
+
 
