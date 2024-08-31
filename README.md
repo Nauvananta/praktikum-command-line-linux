@@ -48,11 +48,19 @@ Perintah man man digunakan untuk menampilkan halaman manual dari perintah man Ha
 
 Perintah file digunakan untuk menentukan tipe file di Linux Perintah ini menganalisis isi file dan memberikan informasi tentang format atau jenis file tersebut
 
+10. ifconfig
+![Screenshot from 2024-08-30 20-54-50](https://github.com/user-attachments/assets/a5b5a19b-8e99-4f58-a729-ac90c00d06ec)
+Perintah ifconfig digunakan untuk menampilkan atau mengonfigurasi antarmuka jaringan di Linux Ini digunakan untuk melihat informasi seperti alamat IP subnet mask dan status antarmuka jaringan
 
+11. cal
 
+![Screenshot from 2024-08-30 20-54-21](https://github.com/user-attachments/assets/91f3ecea-c26a-41a9-a553-ec49228d3c91)
 
+Perintah cal digunakan untuk menampilkan kalender bulan dan tahun saat ini di terminal
 
-
+12. dig
+![Screenshot from 2024-08-30 20-53-42](https://github.com/user-attachments/assets/7298ad36-0a2e-4a39-9203-fb5fa9a1d1e6)
+Perintah dig digunakan untuk melakukan pencarian DNS dan mendapatkan informasi tentang domain tertentu seperti alamat IP dan server DNS yang terkait
 
 
 
