@@ -266,6 +266,9 @@ Perintah zip contoh.zip file_baru.txt digunakan untuk membuat arsip ZIP dengan n
 
 Perintah unzip contoh.zip digunakan untuk mengekstrak file-file yang ada di dalam arsip contoh.zip ke direktori saat ini Perintah ini akan mengeluarkan semua konten dari arsip ZIP tersebut
 
+50. killall
 
+![Screenshot from 2024-09-02 19-05-40](https://github.com/user-attachments/assets/6199302e-45d0-4c0a-ac69-e5db3d5f963d)
 
+Perintah killall digunakan untuk menghentikan semua proses yang memiliki nama yang sama dengan nama program yang ditentukan Perintah ini akan mengirimkan sinyal ke semua proses yang cocok dengan nama tersebut
 
